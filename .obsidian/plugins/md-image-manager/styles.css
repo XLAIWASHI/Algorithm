@@ -1,0 +1,459 @@
+/* Image Browser Modal */
+.image-browser-header {
+    margin-bottom: 12px;
+}
+
+.image-browser-title {
+    margin: 0 0 12px 0;
+}
+
+.image-browser-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.image-browser-search {
+    flex: 1;
+    min-width: 0;
+}
+
+.image-browser-sort {
+    flex-shrink: 0;
+}
+
+.image-browser-count {
+    flex-shrink: 0;
+    font-size: 0.85em;
+    opacity: 0.7;
+    white-space: nowrap;
+}
+
+.image-browser-orphan-btn {
+    flex-shrink: 0;
+    font-size: 0.8em;
+}
+
+.image-browser-orphan-btn.is-active {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+.image-browser-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding: 4px;
+}
+
+.image-browser-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.image-browser-card:hover {
+    background-color: var(--background-modifier-hover);
+    border-color: var(--interactive-accent);
+}
+
+.image-browser-card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: var(--background-secondary);
+    margin-bottom: 6px;
+}
+
+.image-browser-card-img img {
+    object-fit: contain;
+    max-width: 100%;
+    display: block;
+}
+
+.image-browser-card-name {
+    font-size: 0.8em;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.image-browser-card-meta {
+    font-size: 0.7em;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.image-browser-empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px 0;
+    color: var(--text-muted);
+    font-size: 0.95em;
+}
+
+/* Image Preview Modal */
+.image-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.image-preview-img {
+    max-height: 60vh;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+    background-color: var(--background-secondary);
+    display: block;
+    margin: 0 auto;
+}
+
+.image-preview-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.9em;
+}
+
+.image-preview-path {
+    word-break: break-all;
+}
+
+.image-preview-meta {
+    color: var(--text-muted);
+}
+
+.image-preview-label {
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.image-preview-orphan {
+    color: var(--text-warning);
+    font-style: italic;
+}
+
+.image-preview-notes {
+    margin-top: 4px;
+    padding: 6px 10px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.image-preview-note-item {
+    font-size: 0.85em;
+    padding: 2px 0;
+    color: var(--text-muted);
+}
+
+.image-preview-note-link {
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.image-preview-note-link:hover {
+    color: var(--text-accent);
+    text-decoration: underline;
+}
+
+.image-preview-note-more {
+    font-style: italic;
+}
+
+.image-preview-details-toggle {
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    color: var(--text-muted);
+}
+
+.image-preview-notes-hidden {
+    display: none;
+}
+
+.image-preview-note-path {
+    margin-right: 6px;
+}
+
+.image-preview-note-lines {
+    display: inline-flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.image-preview-note-line-link {
+    cursor: pointer;
+    color: var(--text-accent);
+    font-family: var(--font-monospace);
+    font-size: 0.85em;
+}
+
+.image-preview-note-line-link:hover {
+    text-decoration: underline;
+}
+
+.image-preview-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* Confirm Dialog */
+.confirm-dialog-message {
+    padding: 8px 0 16px;
+    line-height: 1.5;
+}
+
+.confirm-dialog-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+/* Orphan Images Modal */
+.orphan-images-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.orphan-images-btn {
+    font-size: 0.85em;
+}
+
+.orphan-images-size {
+    margin-left: auto;
+    font-size: 0.85em;
+    color: var(--text-muted);
+}
+
+.orphan-images-list {
+    max-height: 50vh;
+    overflow-y: auto;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+}
+
+.orphan-images-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.orphan-images-item:last-child {
+    border-bottom: none;
+}
+
+.orphan-images-item input[type="checkbox"] {
+    flex-shrink: 0;
+}
+
+.orphan-images-item-name {
+    font-weight: 500;
+    min-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.orphan-images-item-path {
+    flex: 1;
+    font-size: 0.8em;
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.orphan-images-item-size {
+    flex-shrink: 0;
+    font-size: 0.8em;
+    color: var(--text-muted);
+}
+
+.orphan-images-empty {
+    text-align: center;
+    padding: 32px 0;
+    color: var(--text-muted);
+}
+
+.orphan-images-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+/* Rename Image Modal */
+.rename-image-desc {
+    margin-bottom: 16px;
+    color: var(--text-muted);
+}
+
+.rename-image-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.rename-image-input {
+    width: 100%;
+}
+
+.rename-image-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+/* Hosting Config List */
+.hosting-config-list {
+    margin-bottom: 8px;
+}
+
+.hosting-config-empty {
+    padding: 12px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9em;
+    border: 1px dashed var(--background-modifier-border);
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.hosting-config-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
+.hosting-config-status {
+    font-size: 0.8em;
+    flex-shrink: 0;
+}
+
+.hosting-config-status-on {
+    color: var(--text-success);
+}
+
+.hosting-config-status-off {
+    color: var(--text-muted);
+}
+
+.hosting-config-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.hosting-config-name {
+    font-weight: 500;
+}
+
+.hosting-config-type {
+    font-size: 0.8em;
+    color: var(--text-muted);
+}
+
+.hosting-config-btn {
+    font-size: 0.8em;
+    flex-shrink: 0;
+}
+
+/* Image Name Prompt */
+.image-name-prompt .image-name-prompt-input {
+    width: 100%;
+    margin: 8px 0 16px;
+}
+
+.image-name-prompt .image-name-prompt-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+/* Hosting Config Modal */
+.hosting-config-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+/* Extra Body Fields */
+.extra-body-container {
+    margin: 4px 0 8px;
+    padding: 8px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+}
+
+.extra-body-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.extra-body-row:last-child {
+    margin-bottom: 0;
+}
+
+.extra-body-row input[type="text"] {
+    flex: 1;
+    padding: 4px 8px;
+    font-size: 0.9em;
+}
+
+.extra-body-remove-btn {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1;
+    color: var(--text-muted);
+    background: transparent;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.extra-body-remove-btn:hover {
+    color: var(--text-error);
+    border-color: var(--text-error);
+    background: var(--background-modifier-error);
+}
+
+.extra-body-key-input,
+.extra-body-value-input {
+    width: 40%;
+}
+
+.hosting-config-monospace {
+    font-family: monospace;
+}

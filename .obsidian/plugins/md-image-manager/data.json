@@ -1,0 +1,31 @@
+{
+  "locale": "zh",
+  "imagePathTemplate": "assets/{noteName}",
+  "imagePathBase": "vault",
+  "supportedExtensions": [
+    "png",
+    "jpg",
+    "jpeg",
+    "gif",
+    "bmp",
+    "svg",
+    "webp",
+    "ico",
+    "tiff",
+    "avif"
+  ],
+  "autoCompress": false,
+  "compressQuality": 80,
+  "thumbnailSize": 200,
+  "imageNamingTemplate": "image-{timestamp}",
+  "promptImageName": false,
+  "hostingConfigs": [],
+  "defaultHostingId": "",
+  "uploadPathTemplate": "images/{year}/{month}/{hash}.{ext}",
+  "autoReplaceAfterUpload": false,
+  "reorganizeConvertFormat": true,
+  "skipWikiRefsOnReorganize": true,
+  "enableImageBrowser": true,
+  "autoUploadOnPaste": false,
+  "keepLocalCopy": false
+}
