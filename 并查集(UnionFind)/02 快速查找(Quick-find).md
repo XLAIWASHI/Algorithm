@@ -54,7 +54,6 @@ bool UF::isConnected(int x, int y)
 {
     return id[x] == id[y];
 }
-
 ```
 
 ## 总结
