@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "并查集(UnionFind)/未命名.md",
+                "file": "并查集(UnionFind)/03 快速连接(Quick-union).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "03 快速连接(Quick-union)"
             }
           }
         ],
@@ -196,10 +196,13 @@
       "md-image-manager:图片管理": false
     }
   },
-  "active": "dd21d4e01f638223",
+  "active": "2f64a0491680b647",
   "lastOpenFiles": [
     "并查集(UnionFind)/02 快速查找(Quick-find).md",
-    "并查集(UnionFind)/未命名.md",
+    "并查集(UnionFind)/03 快速连接(Quick-union).md",
+    "assets/03 快速连接(Quick-union)/image-1784091327036.png",
+    "assets/03 快速连接(Quick-union)",
+    "assets",
     "并查集(UnionFind)/01 并查集介绍.md",
     "并查集(UnionFind)",
     "递归/嵌套类问题/02 字符串编码.md",
@@ -226,7 +229,6 @@
     "attachment/Pasted image 20260202233212.png",
     "attachment/Pasted image 20260202233156.png",
     "attachment/Pasted image 20260202233142.png",
-    "attachment/Pasted image 20260202220706.png",
     "递归/常见经典递归(dfs)/01 子集.md",
     "排序算法/重要排序算法总结.md",
     "assets/05 用递归的方式逆序栈",
@@ -241,9 +243,6 @@
     "未命名.base",
     "未命名 1.base",
     "递归/常见经典递归(dfs)/02 组合.md",
-    "assets/03 全排列",
-    "assets/02 组合",
-    "排序算法/归并排序.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
