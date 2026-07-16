@@ -198,10 +198,10 @@
   },
   "active": "2f64a0491680b647",
   "lastOpenFiles": [
-    "并查集(UnionFind)/01 并查集介绍.md",
-    "并查集(UnionFind)/02 快速查找(Quick-find).md",
     "并查集(UnionFind)/03 快速连接(Quick-union).md",
     "并查集(UnionFind)/04 带路径压缩带权的快速合并.md",
+    "并查集(UnionFind)/01 并查集介绍.md",
+    "并查集(UnionFind)/02 快速查找(Quick-find).md",
     "assets/03 快速连接(Quick-union)/image-1784091327036.png",
     "assets/03 快速连接(Quick-union)",
     "assets",
