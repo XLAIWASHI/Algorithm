@@ -3,7 +3,7 @@ Quick-union也是一种简单的实现并查集的算法，他的思路为，每
 
 ## 代码
 ```cpp
-//UF类
+//UF.h
 #include <vector>
 
 class UF
@@ -20,7 +20,7 @@ private:
 ```
 
 ```cpp
-//UF类实现
+//UF.cpp
 #include <iostream>
 #include "UnionFind.h"
 

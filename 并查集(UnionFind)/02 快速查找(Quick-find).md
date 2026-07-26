@@ -4,7 +4,7 @@ Quick-find是一种简单的，实现并查集的一个算法，他的思路为�
 ## 代码
 
 ```cpp
-//UF类
+//UF.h
 #include <vector>
 
 class UF
@@ -20,7 +20,7 @@ private:
 ```
 
 ```cpp
-//UF类实现
+//UF.cpp
 #include <iostream>
 #include "UnionFind.h"
 
