@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "堆栈和队列/01 栈介绍.md",
+                "file": "堆栈和队列/02 链表实现栈.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 栈介绍"
+              "title": "02 链表实现栈"
             }
           }
         ],
@@ -198,8 +198,8 @@
   },
   "active": "2f64a0491680b647",
   "lastOpenFiles": [
-    "堆栈和队列/02 链表实现栈.md",
     "堆栈和队列/01 栈介绍.md",
+    "堆栈和队列/02 链表实现栈.md",
     "并查集(UnionFind)/01 并查集介绍.md",
     "并查集(UnionFind)/02 快速查找(Quick-find).md",
     "并查集(UnionFind)/04 带路径压缩带权的快速合并.md",
