@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "堆栈和队列/08 背包结构与迭代器.md",
+                "file": "并查集(UnionFind)/01 并查集介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08 背包结构与迭代器"
+              "title": "01 并查集介绍"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "e0e7c8c7db73d968",
   "lastOpenFiles": [
-    "堆栈和队列/05 链表实现队列.md",
     "堆栈和队列/08 背包结构与迭代器.md",
+    "堆栈和队列/05 链表实现队列.md",
     "堆栈和队列/02 链表实现栈.md",
     "堆栈和队列/07 泛型实现栈和队列.md",
     "堆栈和队列/06 数组实现队列.md",
