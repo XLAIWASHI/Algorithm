@@ -212,8 +212,13 @@
       "md-image-manager:图片管理": false
     }
   },
-  "active": "e0e7c8c7db73d968",
+  "active": "dd21d4e01f638223",
   "lastOpenFiles": [
+    "排序/高级排序",
+    "排序/基础排序",
+    "排序/未命名.md",
+    "并查集(UnionFind)/01 并查集介绍.md",
+    "排序",
     "堆栈和队列/08 背包结构与迭代器.md",
     "堆栈和队列/05 链表实现队列.md",
     "堆栈和队列/02 链表实现栈.md",
@@ -222,7 +227,6 @@
     "堆栈和队列/03 数组实现栈.md",
     "堆栈和队列/04 队列介绍.md",
     "堆栈和队列/01 栈介绍.md",
-    "并查集(UnionFind)/01 并查集介绍.md",
     "并查集(UnionFind)/04 带路径压缩带权的快速合并.md",
     "并查集(UnionFind)/03 快速连接(Quick-union).md",
     "并查集(UnionFind)/02 快速查找(Quick-find).md",
@@ -253,13 +257,9 @@
     "attachment/Pasted image 20260202192821.png",
     "attachment/Pasted image 20260202192802.png",
     "attachment/Pasted image 20260202192748.png",
-    "数据结构/链表/高频题/k个一组反转链表.md",
     "assets/03 判断链表是否是回文结构/image-1783092061974.png",
-    "assets/03 判断链表是否是回文结构",
     "attachment/Pasted image 20260202233212.png",
     "attachment/Pasted image 20260202233156.png",
-    "递归/常见经典递归(dfs)/01 子集.md",
-    "assets/05 用递归的方式逆序栈",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
