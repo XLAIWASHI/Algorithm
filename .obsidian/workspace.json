@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "排序/00 排序基础与抽象思想.md",
+                "file": "排序/基础排序/01 选择排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 排序基础与抽象思想"
+              "title": "01 选择排序"
             }
           }
         ],
@@ -214,8 +214,9 @@
   },
   "active": "e0e7c8c7db73d968",
   "lastOpenFiles": [
-    "堆栈和队列/07 泛型实现栈和队列.md",
     "排序/00 排序基础与抽象思想.md",
+    "排序/基础排序/01 选择排序.md",
+    "堆栈和队列/07 泛型实现栈和队列.md",
     "堆栈和队列/08 背包结构与迭代器.md",
     "并查集(UnionFind)/01 并查集介绍.md",
     "排序/高级排序",
