@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "排序/基础排序/04 洗牌.md",
+                "file": "排序/基础排序/03 希尔排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 洗牌"
+              "title": "03 希尔排序"
             }
           }
         ],
@@ -212,10 +212,10 @@
       "md-image-manager:图片管理": false
     }
   },
-  "active": "e0e7c8c7db73d968",
+  "active": "dd21d4e01f638223",
   "lastOpenFiles": [
-    "合并/未命名.md",
     "排序/基础排序/04 洗牌.md",
+    "合并/未命名.md",
     "合并",
     "排序/基础排序/03 希尔排序.md",
     "排序/00 排序基础与抽象思想.md",
