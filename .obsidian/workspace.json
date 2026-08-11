@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "排序/基础排序/04 洗牌.md",
+                "file": "合并/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 洗牌"
+              "title": "未命名"
             }
           }
         ],
@@ -214,8 +214,10 @@
   },
   "active": "e0e7c8c7db73d968",
   "lastOpenFiles": [
-    "排序/基础排序/03 希尔排序.md",
     "排序/基础排序/04 洗牌.md",
+    "合并/未命名.md",
+    "合并",
+    "排序/基础排序/03 希尔排序.md",
     "排序/00 排序基础与抽象思想.md",
     "堆栈和队列/07 泛型实现栈和队列.md",
     "堆栈和队列/08 背包结构与迭代器.md",
@@ -250,10 +252,8 @@
     "attachment/Pasted image 20251122143040.png",
     "数据结构/链表/高频题/02 返回链表的第一个入环节点.md",
     "assets/02 字符串编码/image-1783862096331.png",
-    "assets/02 字符串编码",
     "递归/常见经典递归(dfs)/05 用递归的方式逆序栈.md",
     "递归/常见经典递归(dfs)/06 用递归的方式排序栈.md",
-    "递归/常见经典递归(dfs)/07 汉诺塔最优移动轨迹.md",
     "attachment/Pasted image 20260202192821.png",
     "attachment/Pasted image 20260202192802.png",
     "attachment/Pasted image 20260202192748.png",
