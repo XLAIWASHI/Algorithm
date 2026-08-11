@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "合并/未命名.md",
+                "file": "排序/基础排序/04 洗牌.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "04 洗牌"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "e0e7c8c7db73d968",
   "lastOpenFiles": [
-    "排序/基础排序/04 洗牌.md",
     "合并/未命名.md",
+    "排序/基础排序/04 洗牌.md",
     "合并",
     "排序/基础排序/03 希尔排序.md",
     "排序/00 排序基础与抽象思想.md",
