@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "05 凸包 - 排序应用"
             }
+          },
+          {
+            "id": "0e5823d7558588ce",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.13.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -226,7 +238,7 @@
       "md-image-manager:图片管理": false
     }
   },
-  "active": "d1e8d00511dc5427",
+  "active": "0e5823d7558588ce",
   "lastOpenFiles": [
     "assets/05 凸包 - 排序应用/image-1786640346341.png",
     "assets/05 凸包 - 排序应用/image-1786627454321.png",
