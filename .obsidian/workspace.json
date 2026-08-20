@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "排序/高级排序/未命名.md",
+                "file": "排序/高级排序/归并排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "归并排序"
             }
           }
         ],
@@ -243,7 +243,7 @@
   "active": "0e5823d7558588ce",
   "lastOpenFiles": [
     "排序/基础排序/05 凸包 - 排序应用.md",
-    "排序/高级排序/未命名.md",
+    "排序/高级排序/归并排序.md",
     "堆栈和队列/08 背包结构与迭代器.md",
     "assets/05 凸包 - 排序应用/image-1786640346341.png",
     "assets/05 凸包 - 排序应用/image-1786627454321.png",
