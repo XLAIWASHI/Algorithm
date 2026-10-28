@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "优先队列/02 二叉堆.md",
+                "file": "堆栈和队列/03 数组实现栈.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 二叉堆"
+              "title": "03 数组实现栈"
             }
           }
         ],
