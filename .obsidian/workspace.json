@@ -90,9 +90,21 @@
               "icon": "lucide-file",
               "title": "01 稳定性"
             }
+          },
+          {
+            "id": "e22c92cee46f72d0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.15.0"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -254,7 +266,7 @@
       "md-image-manager:图片管理": false
     }
   },
-  "active": "17169329dff436d2",
+  "active": "e22c92cee46f72d0",
   "lastOpenFiles": [
     "排序/高级排序/03 快速选择.md",
     "堆栈和队列/05 链表实现队列.md",
