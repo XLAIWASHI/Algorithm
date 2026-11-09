@@ -95,12 +95,14 @@
             "id": "e22c92cee46f72d0",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.15.0"
+                "file": "堆栈和队列/08 背包结构与迭代器.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.15.0"
+              "icon": "lucide-file",
+              "title": "08 背包结构与迭代器"
             }
           }
         ],
@@ -268,6 +270,7 @@
   },
   "active": "e22c92cee46f72d0",
   "lastOpenFiles": [
+    "堆栈和队列/07 泛型实现栈和队列.md",
     "排序/高级排序/03 快速选择.md",
     "堆栈和队列/05 链表实现队列.md",
     "堆栈和队列/03 数组实现栈.md",
@@ -282,7 +285,6 @@
     "排序/高级排序/01 归并排序.md",
     "排序/高级排序/04 快速排序优化.md",
     "并查集(UnionFind)/04 带路径压缩带权的快速合并.md",
-    "堆栈和队列/07 泛型实现栈和队列.md",
     "并查集(UnionFind)/03 快速连接(Quick-union).md",
     "并查集(UnionFind)/02 快速查找(Quick-find).md",
     "并查集(UnionFind)/01 并查集介绍.md",
